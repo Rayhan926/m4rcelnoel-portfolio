@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-lato font-normal;
+}
+
+@layer components {
+  .container-md {
+    @apply max-w-[1200px] px-5 mx-auto;
+  }
+  .btn_lg {
+    @apply px-12 py-[18px] bg-primary border border-primary duration-200 hover:bg-transparent hover:text-primary text-lg text-white outline-none;
+  }
+}
