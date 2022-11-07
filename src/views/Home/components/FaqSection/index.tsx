@@ -6,19 +6,21 @@ import Collapsible from "react-collapsible";
 const FaqSection = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState<null | number>(null);
   return (
-    <section className="mt-[200px]">
+    <section className="mt-10 lg:mt-[200px] scroll-mt-20" id="faq">
       <div className="container-md">
         <SectionTitle title="ERKLÄRUNGSBEDARF ?" />
-        <h2 className="text-[85px] font-black text-black">FAQ</h2>
+        <h2 className="text-[30px] lg:text-[85px] font-black text-black">
+          FAQ
+        </h2>
 
-        <div className="mt-20">
+        <div className="mt-5 lg:mt-20">
           {faqs.map((faq, i) => (
             <div key={i} className="border-t border-[#707070]">
               <div
                 onClick={() =>
                   setActiveFaqIndex((prev) => (prev === i ? null : i))
                 }
-                className="py-9 text-[32px] cursor-pointer"
+                className="py-4 lg:py-9 text-sm lg:text-[32px] cursor-pointer"
               >
                 {faq.question}
               </div>
@@ -28,7 +30,9 @@ const FaqSection = () => {
                 trigger={""}
                 open={i === activeFaqIndex}
               >
-                <div className="pb-6 text-[#707070]">{faq.answer}</div>
+                <div className="text-xs lg:text-base pb-6 text-[#707070]">
+                  {faq.answer}
+                </div>
               </Collapsible>
             </div>
           ))}

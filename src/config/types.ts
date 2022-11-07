@@ -11,7 +11,7 @@ export type Tag = {
 };
 
 export type ProjectCard = {
-  categories: Tag[];
+  tags: Tag[];
   title: string;
   imgSrc: string;
 };

@@ -13,7 +13,7 @@ const ProjectCards = () => {
       {/** Filters --End-- */}
 
       {/** Project Cards --Start-- */}
-      <div className="grid grid-cols-2 gap-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-[50px]">
         {paginatedCards.map((card, i) => (
           <ProjectCard {...card} key={i} />
         ))}

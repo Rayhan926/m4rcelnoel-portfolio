@@ -31,7 +31,7 @@ const useProjectCards = () => {
     if (filters.length <= 0) return projectCards;
 
     return projectCards.filter((card) => {
-      return filters.some((filter) => card.categories.indexOf(filter) >= 0);
+      return filters.some((filter) => card.tags.indexOf(filter) >= 0);
     });
   }, [filters]);
 

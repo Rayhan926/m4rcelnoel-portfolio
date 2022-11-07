@@ -1,4 +1,4 @@
-import { getCategries } from "@utils";
+import { getTags } from "@utils";
 import { ProjectCard, Service, Tag } from "./types";
 
 export const services: Service[] = [
@@ -65,92 +65,92 @@ export const tags: Tag[] = [
 
 export const projectCards: ProjectCard[] = [
   {
-    categories: getCategries("logos", "visitenkarten"),
+    tags: getTags("logos", "visitenkarten"),
     title: "Elektro- und Haustechnik",
     imgSrc: "/img/Group 85.jpg",
   },
   {
-    categories: getCategries("logos"),
+    tags: getTags("logos"),
     title: "Wander- und  Trekking-Guide",
     imgSrc: "/img/Group 86.jpg",
   },
   {
-    categories: getCategries("visitenkarten"),
+    tags: getTags("visitenkarten"),
     title: "Grafik- und Webdesignerin",
     imgSrc: "/img/Group 87.jpg",
   },
   {
-    categories: getCategries("visitenkarten"),
+    tags: getTags("visitenkarten"),
     title: "Wander- und Outdoor Guide",
     imgSrc: "/img/Group 88.jpg",
   },
   {
-    categories: getCategries("webshops", "websites"),
+    tags: getTags("webshops", "websites"),
     title: "Lachgas und Sahnekapseln",
     imgSrc: "/img/Group 89.jpg",
   },
   {
-    categories: getCategries("logos", "visitenkarten"),
+    tags: getTags("logos", "visitenkarten"),
     title: "Immobilien-vermarktung",
     imgSrc: "/img/Group 90.jpg",
   },
   {
-    categories: getCategries("websites"),
+    tags: getTags("websites"),
     title: "Zahnarztpraxis",
     imgSrc: "/img/Group 91.jpg",
   },
   {
-    categories: getCategries("digitale-speisekarten"),
+    tags: getTags("digitale-speisekarten"),
     title: "Bar & Club",
     imgSrc: "/img/Group 92.jpg",
   },
   {
-    categories: getCategries("websites"),
+    tags: getTags("websites"),
     title: "Großhandel",
     imgSrc: "/img/Group 93.jpg",
   },
   {
-    categories: getCategries("websites"),
+    tags: getTags("websites"),
     title: "Vazegreen",
     imgSrc: "/img/Group 94.jpg",
   },
   {
-    categories: getCategries("websites"),
+    tags: getTags("websites"),
     title: "Sahnekapseln",
     imgSrc: "/img/Group 95.jpg",
   },
   {
-    categories: getCategries("plakat"),
+    tags: getTags("plakat"),
     title: "Wine Tasting",
     imgSrc: "/img/Group 96.jpg",
   },
   {
-    categories: getCategries("plakat"),
+    tags: getTags("plakat"),
     title: "Bowling Night",
     imgSrc: "/img/Group 97.jpg",
   },
   {
-    categories: getCategries("hochzeit"),
+    tags: getTags("hochzeit"),
     title: "Einladungskarte",
     imgSrc: "/img/Group 98.jpg",
   },
   {
-    categories: getCategries("hochzeit"),
+    tags: getTags("hochzeit"),
     title: "Einladungskarte",
     imgSrc: "/img/Group 99.jpg",
   },
   {
-    categories: getCategries("digitale-speisekarten"),
+    tags: getTags("digitale-speisekarten"),
     title: "Bar",
     imgSrc: "/img/Group 100.jpg",
   },
   {
-    categories: getCategries("hochzeit"),
+    tags: getTags("hochzeit"),
     title: "Hochzeits-Website",
     imgSrc: "/img/Group 101.jpg",
   },
   {
-    categories: getCategries("hochzeit"),
+    tags: getTags("hochzeit"),
     title: "Hochzeits-Website",
     imgSrc: "/img/Group 102.jpg",
   },
